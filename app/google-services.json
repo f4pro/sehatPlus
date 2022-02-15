@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "796652804816",
+    "firebase_url": "https://sehatplus-13d15-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sehatplus-13d15",
+    "storage_bucket": "sehatplus-13d15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796652804816:android:05c89759abc20c987adcd5",
+        "android_client_info": {
+          "package_name": "com.faizil.sehatplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796652804816-7fno6mvql7enod3vhc8963jb6m9i8p6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwRL4So0QeeR2j6nRexEBiJeqZVLcFI3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796652804816-7fno6mvql7enod3vhc8963jb6m9i8p6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

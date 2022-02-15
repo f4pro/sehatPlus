@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/starting_nav"
+    app:startDestination="@id/splashscreenFragment">
+
+    <fragment
+        android:id="@+id/splashscreenFragment"
+        android:name="com.faizil.sehatplus.splashes.SplashscreenFragment"
+        android:label="fragment_splashscreen"
+        tools:layout="@layout/fragment_splashscreen" >
+        <action
+            android:id="@+id/action_splashscreenFragment_to_getStartedFragment"
+            app:destination="@id/getStartedFragment"
+            app:popUpTo="@id/splashscreenFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashscreenFragment_to_home3"
+            app:destination="@id/home3"
+            app:popUpTo="@id/splashscreenFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/getStartedFragment"
+        android:name="com.faizil.sehatplus.splashes.vPagerFragment.GetStartedFragment"
+        android:label="fragment_get_started"
+        tools:layout="@layout/fragment_get_started" >
+        <action
+            android:id="@+id/action_getStartedFragment_to_home3"
+            app:destination="@id/home3"
+            app:popUpTo="@id/getStartedFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <activity
+        android:id="@+id/home3"
+        android:name="com.faizil.sehatplus.home"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+</navigation>

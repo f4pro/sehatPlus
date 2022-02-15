@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="nameSignUp">Name</string>
+    <string name="login_as_test">Login As</string>
+</resources>

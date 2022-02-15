@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/insideTi"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="23dp"
+            android:hint="Write something...">
+
+            <EditText
+                android:id="@+id/insideEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:overScrollMode="always"
+                android:scrollbarStyle="insideInset"
+                android:scrollHorizontally="false" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/PostBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/insideTi"
+            android:layout_alignStart="@id/insideTi"
+            android:layout_alignEnd="@id/insideTi"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="23dp"
+            android:layout_toEndOf="@id/insideTi"
+            android:backgroundTint="@color/colorDarkGray"
+            android:fontFamily="@font/google_sans_bold"
+            android:text="Post"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PostBtn"
+            android:fontFamily="@font/googlesans_italic"
+            android:gravity="center"
+            android:text="Tap on the top or swipe down to discard"
+            android:textSize="13sp"
+            android:layout_marginBottom="43dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>
